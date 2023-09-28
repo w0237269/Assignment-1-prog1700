@@ -6,7 +6,7 @@ function main()
     //input
     let loan = readlineSync.question("Enter loan amount: ");
     let intrestRate = parseInt(readlineSync.question("Enter intrest rate: "));
-    let year = parseFloat(readlineSync.question("Enter number of of years: "));
+    let year = (readlineSync.question("Enter number of of years: "));
 
     //process
     let weeklyIntrest = intrestRate / 5200;
